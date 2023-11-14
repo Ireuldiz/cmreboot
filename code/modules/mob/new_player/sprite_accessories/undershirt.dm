@@ -63,35 +63,72 @@ GLOBAL_LIST_INIT_TYPED(undershirt_f, /datum/sprite_accessory/undershirt, setup_u
 /datum/sprite_accessory/undershirt/undershirt
 	name = "Undershirt (Tan)"
 	icon_state = "t_undershirt"
-	gender = NEUTER
+	gender = MALE
+
+/datum/sprite_accessory/undershirt/undershirt/female
+	icon_state = "t_undershirt_f"
+	gender = FEMALE
 
 /datum/sprite_accessory/undershirt/undershirt/black
 	name = "Undershirt (Black)"
 	icon_state = "b_undershirt"
 
+/datum/sprite_accessory/undershirt/undershirt/black/female
+	icon_state = "b_undershirt_f"
+	gender = FEMALE
+
 /datum/sprite_accessory/undershirt/undershirt/sleeveless
 	name = "Undershirt (Tan, Sleeveless)"
 	icon_state = "t_undershirt_sleeveless"
+
+/datum/sprite_accessory/undershirt/undershirt/sleeveless/female
+	icon_state = "t_undershirt_sleeveless_f"
+	gender = FEMALE
 
 /datum/sprite_accessory/undershirt/undershirt/sleeveless/black
 	name = "Undershirt (Black, Sleeveless)"
 	icon_state = "b_undershirt_sleeveless"
 
+/datum/sprite_accessory/undershirt/undershirt/sleeveless/black/female
+	name = "Undershirt (Black, Sleeveless)"
+	icon_state = "b_undershirt_sleeveless_f"
+	gender = FEMALE
+
 /datum/sprite_accessory/undershirt/undershirt/rolled
 	name = "Undershirt (Tan, Rolled)"
 	icon_state = "t_rolled_undershirt"
+
+/datum/sprite_accessory/undershirt/undershirt/rolled/female
+	name = "Undershirt (Tan, Rolled)"
+	icon_state = "t_rolled_undershirt_f"
+	gender = FEMALE
 
 /datum/sprite_accessory/undershirt/undershirt/rolled_sleeveless
 	name = "Undershirt (Tan, Rolled Sleeveless)"
 	icon_state = "t_rolled_undershirt_sleeveless"
 
+/datum/sprite_accessory/undershirt/undershirt/rolled_sleeveless/female
+	name = "Undershirt (Tan, Rolled Sleeveless)"
+	icon_state = "t_rolled_undershirt_sleeveless_f"
+	gender = FEMALE
+
 /datum/sprite_accessory/undershirt/undershirt/long
 	name = "Undershirt (Tan, Long Sleeved)"
 	icon_state = "t_long_undershirt"
 
+/datum/sprite_accessory/undershirt/undershirt/long/female
+	name = "Undershirt (Tan, Long Sleeved)"
+	icon_state = "t_long_undershirt_f"
+	gender = FEMALE
+
 /datum/sprite_accessory/undershirt/undershirt/long/black
 	name = "Undershirt (Black, Long Sleeved)"
 	icon_state = "b_long_undershirt"
+
+/datum/sprite_accessory/undershirt/undershirt/long/black
+	name = "Undershirt (Black, Long Sleeved)"
+	icon_state = "b_long_undershirt_f"
+	gender = FEMALE
 
 // Male
 /datum/sprite_accessory/undershirt/none

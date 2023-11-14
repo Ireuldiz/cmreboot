@@ -43,40 +43,15 @@
 	icon_name = "southasian"
 	ethnic_category = "Oriental"
 
-/datum/ethnicity/indian
-	name = "Indian"
-	icon_name = "indian"
-	ethnic_category = "Oriental"
-
 /datum/ethnicity/sino
 	name = "Eurasian"
 	icon_name = "eurasian"
 	ethnic_category = "Oriental"
 
-/datum/ethnicity/mesoamerican
-	name = "Mesoamerican"
-	icon_name = "mesoamerican"
-	ethnic_category = "American"
-
-/datum/ethnicity/northamerican
-	name = "North American"
-	icon_name = "northamerican"
-	ethnic_category = "American"
-
-/datum/ethnicity/southamerican
-	name = "South American"
-	icon_name = "southamerican"
-	ethnic_category = "American"
-
 /datum/ethnicity/circumpolar
 	name = "Circumpolar"
 	icon_name = "circumpolar"
 	ethnic_category = "American"
-
-/datum/ethnicity/northafrican
-	name = "North African"
-	icon_name = "northafrican"
-	ethnic_category = "African"
 
 /datum/ethnicity/centralafrican
 	name = "Central African"
@@ -106,9 +81,4 @@
 /datum/ethnicity/australasian
 	name = "Australasian"
 	icon_name = "australasian"
-	ethnic_category = "Oceania"
-
-/datum/ethnicity/polynesian
-	name = "Polynesian"
-	icon_name = "polynesian"
 	ethnic_category = "Oceania"

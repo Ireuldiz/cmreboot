@@ -28,49 +28,49 @@
 				return "head_[get_gender_name(gender)]"
 
 			if ("r_arm")
-				return "[ethnicity]_right_arm"
+				return "[ethnicity]_right_arm_[get_gender_name(gender)]"
 
 			if ("right arm")
 				return "[ethnicity]_right_arm"
 
 			if ("l_arm")
-				return "[ethnicity]_left_arm"
+				return "[ethnicity]_left_arm_[get_gender_name(gender)]"
 
 			if ("left arm")
 				return "[ethnicity]_left_arm"
 
 			if ("r_leg")
-				return "[ethnicity]_right_leg"
+				return "[ethnicity]_right_leg_[get_gender_name(gender)]"
 
 			if ("right leg")
 				return "[ethnicity]_right_leg"
 
 			if ("l_leg")
-				return "[ethnicity]_left_leg"
+				return "[ethnicity]_left_leg_[get_gender_name(gender)]"
 
 			if ("left leg")
 				return "[ethnicity]_left_leg"
 
 			if ("r_hand")
-				return "[ethnicity]_right_hand"
+				return "[ethnicity]_right_hand_[get_gender_name(gender)]"
 
 			if ("right hand")
 				return "[ethnicity]_right_hand"
 
 			if ("l_hand")
-				return "[ethnicity]_left_hand"
+				return "[ethnicity]_left_hand_[get_gender_name(gender)]"
 
 			if ("left hand")
 				return "[ethnicity]_left_hand"
 
 			if ("r_foot")
-				return "[ethnicity]_right_foot"
+				return "[ethnicity]_right_foot_[get_gender_name(gender)]"
 
 			if ("right foot")
 				return "[ethnicity]_right_foot"
 
 			if ("l_foot")
-				return "[ethnicity]_left_foot"
+				return "[ethnicity]_left_foot_[get_gender_name(gender)]"
 
 			if ("left foot")
 				return "[ethnicity]_left_foot"
