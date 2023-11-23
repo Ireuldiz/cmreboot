@@ -525,6 +525,14 @@ INITIALIZE_IMMEDIATE(/turf/closed/wall/indestructible/splashscreen)
 	walltype = WALL_JUNGLE_UPDATED //Not a metal wall
 	hull = 1
 
+/turf/closed/wall/strata_ice/junglehengsha
+	name = "purple vegetation"
+	icon = 'icons/turf/walls/jungle_veg.dmi'
+	icon_state = "jungle_vegP"
+	desc = "Exceptionally dense purple vegetation that you can't see through."
+	walltype = WALL_JUNGLE_UPDATED
+	hull = 1
+
 /turf/closed/wall/strata_outpost_ribbed //this guy is our reinforced replacement
 	name = "ribbed outpost walls"
 	icon = 'icons/turf/walls/strata_outpost.dmi'
@@ -583,8 +591,6 @@ INITIALIZE_IMMEDIATE(/turf/closed/wall/indestructible/splashscreen)
 	icon_state = "solaris_rock"
 	walltype = WALL_SOLARIS_ROCK
 	hull = 1
-
-
 
 //GREYBOX DEVELOPMENT WALLS
 
